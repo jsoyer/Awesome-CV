@@ -81,29 +81,29 @@
 \defaultfontfeatures{
   Renderer=HarfBuzz,
 }
-\setmainfont{SourceSansPro-Regular.otf}[
-  Path=/usr/local/texlive/2025basic/texmf-dist/fonts/opentype/adobe/sourcesanspro/,
-  ItalicFont=SourceSansPro-RegularIt.otf,
-  BoldFont=SourceSansPro-Bold.otf,
-  BoldItalicFont=SourceSansPro-BoldIt.otf,
-  FontFace={l}{n}{Font=SourceSansPro-Light.otf},
-  FontFace={l}{it}{Font=SourceSansPro-LightIt.otf},
+\setmainfont{SourceSansPro-Regular}[
+  Extension=.otf,
+  ItalicFont=SourceSansPro-RegularIt,
+  BoldFont=SourceSansPro-Bold,
+  BoldItalicFont=SourceSansPro-BoldIt,
+  FontFace={l}{n}{Font=SourceSansPro-Light},
+  FontFace={l}{it}{Font=SourceSansPro-LightIt},
 ]
-\setsansfont{SourceSansPro-Regular.otf}[
-  Path=/usr/local/texlive/2025basic/texmf-dist/fonts/opentype/adobe/sourcesanspro/,
-  ItalicFont=SourceSansPro-RegularIt.otf,
-  BoldFont=SourceSansPro-Bold.otf,
-  BoldItalicFont=SourceSansPro-BoldIt.otf,
-  FontFace={l}{n}{Font=SourceSansPro-Light.otf},
-  FontFace={l}{it}{Font=SourceSansPro-LightIt.otf},
+\setsansfont{SourceSansPro-Regular}[
+  Extension=.otf,
+  ItalicFont=SourceSansPro-RegularIt,
+  BoldFont=SourceSansPro-Bold,
+  BoldItalicFont=SourceSansPro-BoldIt,
+  FontFace={l}{n}{Font=SourceSansPro-Light},
+  FontFace={l}{it}{Font=SourceSansPro-LightIt},
 ]
-\newfontfamily\roboto{Roboto-Regular.otf}[
-  Path=/usr/local/texlive/2025basic/texmf-dist/fonts/opentype/google/roboto/,
-  ItalicFont=Roboto-Italic.otf,
-  BoldFont=Roboto-Bold.otf,
-  BoldItalicFont=Roboto-BoldItalic.otf,
-  FontFace={l}{n}{Font=Roboto-Light.otf},
-  FontFace={l}{it}{Font=Roboto-LightItalic.otf},
+\newfontfamily\roboto{Roboto-Regular}[
+  Extension=.otf,
+  ItalicFont=Roboto-Italic,
+  BoldFont=Roboto-Bold,
+  BoldItalicFont=Roboto-BoldItalic,
+  FontFace={l}{n}{Font=Roboto-Light},
+  FontFace={l}{it}{Font=Roboto-LightItalic},
 ]
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
